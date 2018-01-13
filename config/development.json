@@ -1,0 +1,19 @@
+{
+    "app": {
+        "smtpConfig": {
+            "pool": true,
+            "host": "smtp.gmail.com",
+            "port": 587,
+            "secure": false,
+            "auth": {
+                "user": "local@gmail.com",
+                "pass": "xxxxxxxxx"
+            },
+            "tls": {
+                "rejectUnauthorized": false
+            }
+        },
+        "port":8888
+    },
+    "mongodb":"mongodb://admin:admin@ds133321.mlab.com:33321/chatbotdb-test"
+}

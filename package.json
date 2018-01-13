@@ -1,0 +1,43 @@
+{
+  "name": "chatbot-poc",
+  "version": "1.0.0",
+  "description": "A web interface for integration custom chat bot.",
+  "main": "index.js",
+  "scripts": {
+    "babel-node": "babel-node --presets=env",
+    "start": "nodemon --exec npm run babel-node -- ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arpitsharmagit/chatbot-poc.git"
+  },
+  "keywords": [
+    "chat",
+    "chatbot",
+    "bot"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arpitsharmagit/chatbot-poc/issues"
+  },
+  "homepage": "https://github.com/arpitsharmagit/chatbot-poc#readme",
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "config": "^1.29.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.15.5",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.0.0-rc2",
+    "morgan": "~1.9.0",
+    "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "nodemon": "^1.14.8"
+  }
+}
